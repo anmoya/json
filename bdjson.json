@@ -1,0 +1,450 @@
+var bdjson = [
+  {
+    "codigo": "LN-LIB-0001",
+    "subTitulo": "Wenuntuafiel Afpuwulu Mapu. El renacer de la Frontera",
+    "unidades": 5,
+    "remanente": 5,
+    "proveedor": "Historia Mapuche",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-REV-0001",
+    "subTitulo": "Revista \"Historia Mapuche\" n\u00BA 1",
+    "unidades": 10,
+    "remanente": 10,
+    "proveedor": "Historia Mapuche",
+    "categoria": "Revista"
+  },
+  {
+    "codigo": "LN-REV-0002",
+    "subTitulo": "Revista \"Historia Mapuche\" n\u00BA 2",
+    "unidades": 10,
+    "remanente": 10,
+    "proveedor": "Historia Mapuche",
+    "categoria": "Revista"
+  },
+  {
+    "codigo": "LN-OTR-0001",
+    "subTitulo": "Kalendario Kunio 2017-Mayu 2018",
+    "unidades": 6,
+    "remanente": 5,
+    "proveedor": "Historia Mapuche",
+    "categoria": "Calendario"
+  },
+  {
+    "codigo": "LN-JUE-0001",
+    "subTitulo": "\"Juguemos + cerca\"",
+    "unidades": 2,
+    "remanente": 2,
+    "proveedor": "Juguemos + cerca",
+    "categoria": "Juego"
+  },
+  {
+    "codigo": "LN-LIB-0002",
+    "subTitulo": "Ecolog\u00EDa social",
+    "unidades": 3,
+    "remanente": 3,
+    "proveedor": "Novena Ola",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0003",
+    "subTitulo": "Nestor Makhno y la revoluci\u00F3n rusa",
+    "unidades": 3,
+    "remanente": 3,
+    "proveedor": "Novena Ola",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0004",
+    "subTitulo": "Muerte Accidental de un anarquista",
+    "unidades": 2,
+    "remanente": 2,
+    "proveedor": "Novena Ola",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0005",
+    "subTitulo": "Sin dios ni patrones",
+    "unidades": 5,
+    "remanente": 5,
+    "proveedor": "Mar y Tierra",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0006",
+    "subTitulo": "Negros Cisnes",
+    "unidades": 5,
+    "remanente": 5,
+    "proveedor": "Mar y Tierra",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0007",
+    "subTitulo": "Anarquismo en Chile",
+    "unidades": 1,
+    "remanente": 1,
+    "proveedor": "Mar y Tierra",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0008",
+    "subTitulo": "Perdiendo el miedo",
+    "unidades": 5,
+    "remanente": 5,
+    "proveedor": "Mar y Tierra",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0009",
+    "subTitulo": "Gol en el campo, paz en la tierra",
+    "unidades": 5,
+    "remanente": 5,
+    "proveedor": "Sarta\u00F1a",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0010",
+    "subTitulo": "Museihushugi: El Anarquismo Japon\u00E9s",
+    "unidades": 3,
+    "remanente": 3,
+    "proveedor": "Sarta\u00F1a",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0011",
+    "subTitulo": "Historia material de Potrerillos",
+    "unidades": 3,
+    "remanente": 3,
+    "proveedor": "Sarta\u00F1a",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0012",
+    "subTitulo": "El Anarquismo y la Emancipaci\u00F3n de la Mujer en Chile",
+    "unidades": 3,
+    "remanente": 3,
+    "proveedor": "Sarta\u00F1a",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0013",
+    "subTitulo": "Pablo E. Galleguillos. Vida y agitaci\u00F3n obrera en Ovalle",
+    "unidades": 3,
+    "remanente": 3,
+    "proveedor": "Sarta\u00F1a",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-REV-0003",
+    "subTitulo": "La Brecha n1",
+    "unidades": 2,
+    "remanente": 2,
+    "proveedor": "La Brecha",
+    "categoria": "Revista"
+  },
+  {
+    "codigo": "LN-REV-0004",
+    "subTitulo": "La Brecha n2",
+    "unidades": 2,
+    "remanente": 2,
+    "proveedor": "La Brecha",
+    "categoria": "Revista"
+  },
+  {
+    "codigo": "LN-REV-0005",
+    "subTitulo": "La Brecha n3",
+    "unidades": 2,
+    "remanente": 2,
+    "proveedor": "La Brecha",
+    "categoria": "Revista"
+  },
+  {
+    "codigo": "LN-REV-0006",
+    "subTitulo": "La Brecha n4",
+    "unidades": 2,
+    "remanente": 2,
+    "proveedor": "La Brecha",
+    "categoria": "Revista"
+  },
+  {
+    "codigo": "LN-LIB-0014",
+    "subTitulo": "Emma Goldman",
+    "unidades": 4,
+    "remanente": 0,
+    "proveedor": "Idea",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0015",
+    "subTitulo": "Croquis del coraz\u00F3n",
+    "unidades": 2,
+    "remanente": 2,
+    "proveedor": "Victorino Lainez",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0016",
+    "subTitulo": "Orgullo de Puerto.",
+    "unidades": 2,
+    "remanente": 2,
+    "proveedor": "Victorino Lainez",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0017",
+    "subTitulo": "La Conquista de Ais\u00E9n",
+    "unidades": 2,
+    "remanente": 2,
+    "proveedor": "\u00D1ire Negro",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0018",
+    "subTitulo": "Tragedia obrera en Bajo Pisagua",
+    "unidades": 5,
+    "remanente": 5,
+    "proveedor": "\u00D1ire Negro",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-JUE-0002",
+    "subTitulo": "Arboretum",
+    "unidades": 5,
+    "remanente": 5,
+    "proveedor": "Fractal",
+    "categoria": "Juego"
+  },
+  {
+    "codigo": "LN-JUE-0003",
+    "subTitulo": "Pachwork",
+    "unidades": 5,
+    "remanente": 5,
+    "proveedor": "Fractal",
+    "categoria": "Juego"
+  },
+  {
+    "codigo": "LN-JUE-0004",
+    "subTitulo": "Batalla por el Olimpo",
+    "unidades": 5,
+    "remanente": 5,
+    "proveedor": "Fractal",
+    "categoria": "Juego"
+  },
+  {
+    "codigo": "LN-LIB-0019",
+    "subTitulo": "Christi",
+    "proveedor": "Alarido Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0020",
+    "subTitulo": "El Cortijo 3. Origen de una Poblaci\u00F3n",
+    "proveedor": "Alarido Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0021",
+    "subTitulo": "La fuga de Kropotkin. De la prisi\u00F3n zarista a la trinchera anarquista",
+    "proveedor": "Editorial Eleuterio",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0022",
+    "subTitulo": "Eliseo Reclus. Ge\u00F3grafo anarquista",
+    "proveedor": "Editorial Eleuterio",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0023",
+    "subTitulo": "Educaci\u00F3n Anarquista vol.1 Aprendizajes para una sociedad libre. Selecci\u00F3n de escritos contempor\u00E1neos",
+    "proveedor": "Editorial Eleuterio",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0024",
+    "subTitulo": "Educaci\u00F3n anarquista Vol. 2 Para educar en la libertad",
+    "proveedor": "Editorial Eleuterio",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0025",
+    "subTitulo": "Peque\u00F1a Antolog\u00EDa. Cuentos anarquistas de Am\u00E9rica Latina",
+    "proveedor": "Editorial Eleuterio",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0026",
+    "subTitulo": "Peque\u00F1a Antolog\u00EDa Vol.2 Cuentos anarquistas de Am\u00E9rica Latina",
+    "proveedor": "Editorial Eleuterio",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0027",
+    "subTitulo": "Liberaci\u00F3n del trabajo. Ensayo acerca del desarrollo del trabajo humano",
+    "proveedor": "Editorial Eleuterio",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0028",
+    "subTitulo": "La Idea. Perspectiva de mujeres anarquistas",
+    "proveedor": "Editorial Eleuterio",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0029",
+    "subTitulo": "Rojo pend\u00F3n, Negro color. Reflexiones sobre la revoluci\u00F3n y guerra civil espa\u00F1olas",
+    "proveedor": "Editorial Eleuterio",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0030",
+    "subTitulo": "Cr\u00EDtica, utop\u00EDa y pol\u00EDtica. Lecturas de Miguel Abensour",
+    "proveedor": "Nadar Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0031",
+    "subTitulo": "C\u00F3mo educa el Estado a tus hijos",
+    "proveedor": "Nadar Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0032",
+    "subTitulo": "Poblaci\u00F3n Esperanza",
+    "proveedor": "Nadar Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0033",
+    "subTitulo": "Palabras abren sepulcros. Antolog\u00EDa po\u00E9tica invertida",
+    "proveedor": "Nadar Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0034",
+    "subTitulo": "La nuez que devora la vida",
+    "proveedor": "Nadar Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0035",
+    "subTitulo": "Nadie que est\u00E9 feliz escribe",
+    "proveedor": "Nadar Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0036",
+    "subTitulo": "Escenarios",
+    "proveedor": "Nadar Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0037",
+    "subTitulo": "\u00BFClase o Pueblo? Una cr\u00EDtica cient\u00EDfica desde el marxismo",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0038",
+    "subTitulo": "Pensamiento Perif\u00E9rico. Una tesis interpretativa global",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0039",
+    "subTitulo": "Unidad sindical desde la base. La Central \u00DAnica de trabajadores, 1953-1973",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0040",
+    "subTitulo": "Hegemon\u00EDa y Cultura Pol\u00EDtica en el Partido Comunista de Chile",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0041",
+    "subTitulo": "La trinchera letrada. Intelectuales latinoamericanos y Guerra Fr\u00EDa",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0042",
+    "subTitulo": "Manifiesto del nuevo realismo",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0043",
+    "subTitulo": "La felicidad y la pol\u00EDtica en Luis Emilio Recabarren",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0044",
+    "subTitulo": "El modo de ser aristocr\u00E1tico. El caso de la oligarqu\u00EDa chilena hacia 1900",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0045",
+    "subTitulo": "Moral y pr\u00E1cticas c\u00EDvicas en los ni\u00F1os chilenos, 1880-1950",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0046",
+    "subTitulo": "Los suplementeros. Los ni\u00F1os y la venta de diarios, Chile, 1880-1953",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0047",
+    "subTitulo": "\u00BFQu\u00E9 hacer con los pobres? \u00C9lites y sectores populares en Santiago de Chile, 1840-1895",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0048",
+    "subTitulo": "Carlos Gardel. Su vida, su m\u00FAsica, su \u00E9poca",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0049",
+    "subTitulo": "Andr\u00E9s Ib\u00E1\u00F1ez y la Revoluci\u00F3n de la Igualdad en Santa Cruz",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0050",
+    "subTitulo": "Releyendo a Antonio Labriola",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0051",
+    "subTitulo": "Teatro y Cultura Socialista en Chile. Norte Grande 1900-1934",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0052",
+    "subTitulo": "Chile 1810-1830. Una econom\u00EDa post colonial. Un enfoque jur\u00EDdico",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0053",
+    "subTitulo": "Sociofenomenolog\u00EDa",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  },
+  {
+    "codigo": "LN-LIB-0054",
+    "subTitulo": "El Partido Comunista de Chile, 1922-1947",
+    "proveedor": "Ariadna Ediciones",
+    "categoria": "Libro"
+  }
+]
